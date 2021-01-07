@@ -18,8 +18,8 @@
     margin-right: 5px;
   }
   .gallery_product .list-inline .blogBox {
-    width: 120px;
-    height: 120px;
+    width: 32%;
+    height: 350px;
   }
 }
 
@@ -35,6 +35,16 @@
   }
 }
 @media screen and (max-width: 991px) and (min-width: 760px) {
+  .section_contact .row .item_contact:last-child {
+    display: none;
+  }
+  .section_contact .row .item_contact {
+    width: 100%;
+  }
+  .section_contact .row .item_contact .item_date {
+    width: 50%;
+    float: left;
+  }
   .container {
     width: 500px;
   }
@@ -76,7 +86,7 @@
     background: #fa7414;
   }
   .section_menu .close_menu {
-    top: 80px;
+    top: 45px;
   }
   .section_menu ul.main_menu {
     padding: 150px 15px;
@@ -89,7 +99,7 @@
     padding-top: 100px;
   }
   .element_fixed_right > a.btn_chat {
-    display: none;
+    display: none !important;
   }
   .element_fixed_right {
     display: flex;
@@ -106,6 +116,7 @@
   }
   .element_fixed_right p {
     width: 50%;
+    text-align: center;
   }
 }
 @media screen and (min-width: 991px) {
@@ -119,9 +130,9 @@
   }
 }
 @media screen and (max-width: 759px) {
-  /*.section_form , .element_fixed_left , .element_fixed_right {
+  .section_contact .row .item_contact:last-child {
     display: none;
-  }*/
+  }
   body {
     padding: 0 15px;
   }
@@ -171,9 +182,10 @@
   .gallery_product {
     padding: 0;
     margin-top: 50px;
+    overflow: hidden;
   }
   .gallery_product .list-inline .blogBox {
-    width: 50%;
+    width: 100%;
     float: left;
     margin: 0;
   }
