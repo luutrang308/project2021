@@ -1,0 +1,184 @@
+
+@media screen and (min-width: 1200px){
+    body .container-fluid{
+        max-width: 1515px;
+    }
+    .page-img-project .container-fluid{
+        width: 1515px;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+
+    .page-textcolor .item_field .count_field h2{
+     font-size: 30px;
+        padding-top:0px;
+    }
+
+}
+
+.page-gtc p{
+    font-size: 16px;
+}
+
+.item_field .count_field p{
+    float:left;
+}
+.item_field .count_field h4{
+ padding-top: 25px;
+}
+.title_text{
+    margin-top:40px;
+}
+.text-box{
+    margin-top:80px;
+
+}
+.text-box h4{
+    margin-bottom:80px;
+
+}
+.pagefull {
+    background-image: url("../../images/img/imgtop2.png");
+    background-size: cover;
+    background-repeat: no-repeat    ;
+}
+.pagefull  .tuvanthietke{
+    background-image: none;
+}
+
+.page-textcolor .item_field h2{
+    color: #6D6D6D !important;
+    font-weight: 100 !important;
+
+
+}
+.page-textcolor .titlecolor h2:before{
+    background:#3C4E40;
+    opacity: 0.4;
+}
+.page-textcolor .titlecolor h2{
+    margin-bottom: 30px;
+}
+.page-textcolor .titlecolor .button-color .title_text .btn_move span img{
+    width: 35px;
+}
+.page-textcolor .titlecolor .button-color p{
+    font-size: 18px;
+}
+.page-textcolor .titlecolor{
+    margin-top:0px;
+}
+.page-textcolor{
+    background-image: url("../../images/img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team .team-item .slick-prev {
+    color: black;
+    background-color: black;
+}
+
+.team .team-item .slick-next {
+    color: black;
+    background-color: black;
+}
+.page-textcolor .item_field .count_field .col-4{
+    display: inline-block;
+}
+.page-textcolor .item_field .count_field h2{
+   padding-top:25px;
+}
+.page-textcolor .item_field .count_field{
+    display: inline-block;
+    padding-top: 12px;
+    padding-right: 25px;
+    padding-left: 20px;
+}
+.page-textcolor .item_field:hover{
+    box-shadow: 1px 2px 12px 5px #88888840;
+    transition: 0.3s;
+}
+
+.page-textcolor .item_field .count_field .icon-color img{
+    display: none;
+    width: 10%;
+    position: absolute;
+    right: 0;
+    top: 48%;
+}
+.page-textcolor .item_field .count_field{
+    width: 100%;
+}
+.page-textcolor .item_field:hover .icon-color img{
+  display: block;
+}
+.page-textcolor .item_field{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.textdisplay{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-slider-team .slider_project .item:after{
+    display:none;
+}
+
+.page-slider-team {
+    position: relative;
+    margin-bottom:80px;
+}
+.page-slider-team .group_fle{
+    position: absolute;
+    top:50%;
+    width: 100%;
+}
+
+.page-slider-team .click-prev-next {
+    width: 100%;
+    position: relative;
+}
+.page-slider-team .click-prev-next .next{
+ position: absolute;
+    right:4%;
+}
+
+.page-slider-team .click-prev-next .prev{
+    position: absolute;
+    left:4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

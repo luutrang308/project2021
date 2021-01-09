@@ -1,0 +1,27 @@
+body h4{
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: 36px;
+}
+body h2{
+    font-family: Oswald;
+    font-weight: 400 !important;
+    font-size: 60px;
+
+}
+body p{
+    font-family: Segoe UI;
+    font-size: 18px;
+}
+.title p{
+    font-family: Segoe UI;
+}
+@media screen and (max-width: 1200px){
+    body h2{
+        font-size: 48px;
+    }
+
+}
+body .item_footer p{
+    font-family: Segoe UI;
+}

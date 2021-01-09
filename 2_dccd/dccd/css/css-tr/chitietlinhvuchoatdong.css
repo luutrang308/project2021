@@ -1,0 +1,181 @@
+@media screen and (min-width: 1200px){
+    body .container-fluid{
+        max-width: 1515px;
+    }
+
+}
+
+.titlelight p, .title p{
+    font-family: Segoe UI;
+}
+p{
+    font-size: 24px;
+}
+.titlelight{
+    margin-bottom: 80px;
+}
+.titlelight h2{
+    color: #be1a2b;
+}
+
+@media screen and (max-width: 1200px){
+    body h2{
+        font-size: 48px;
+    }
+    .doingulanhdao .title .title-box {
+        position: absolute;
+        top: 62px;
+        left: 0;
+        z-index: -1;
+    }
+    .g-content-box h4{
+        margin-top:0px !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .doingulanhdao .title p:after{
+        display: none;
+    }
+    .doingulanhdao .title p{
+        margin-left: 0px;
+    }
+}
+
+
+.g-content-box{
+    margin-top: 25px;
+    display: inline-block;
+    height:200px;
+}
+.g-content-box h4{
+  margin-top:25px;
+}
+
+
+/* MAN SO 5: */
+/*Tư vấn thiết kế*/
+.tuvanthietke{
+    background-image: url("../../images/img/bgtuvanthietke.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 100px;
+}
+.tuvanthietke:before{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: transparent linear-gradient(180deg, #202421 0%, #1E271FF2 100%) 0% 0% no-repeat padding-box;
+    opacity:90%;
+}
+.tuvanthietke .title p:after {
+    position: absolute;
+    left: 0;
+    width: 44px;
+    height: 1px;
+    background: #fff;
+    opacity: 100%;
+    top:16px;
+    margin-left: 15px;
+    content: '';
+    z-index: 1;
+}
+.tuvanthietke .title p {
+   margin-left:50px;
+}
+.tuvanthietke .g-content-box p{
+    font-size: 14px;
+}
+.item_footer form {
+    width: 100%;
+    max-width: 100%;
+}
+.page_field {
+     background: none;
+}
+.breadcrumb_th {
+    background: none;
+}
+.w120:before {
+    width: 110%;
+}
+
+.group-partner{
+    background-image: url("../../images/img/doitac.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 173px;
+    padding-top: 130px;
+    position: relative;
+}
+.group-partner:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #17291A;
+    opacity: 80%;
+}
+.group-partner .title_text h2{
+    margin-bottom: 40px;
+}
+.tuvanthietke .page_field {
+    background: none;
+    padding-bottom: 0px;
+}
+
+.page_contact .group_input{
+
+    padding-right: 0px;
+}
+.group-partner img{
+    opacity: 0.7;
+}
+
+.group-partner img:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    --border-radius: 25px;
+    border-radius: 25px;
+    display: none;
+}
+.circle {
+    width: 25px;
+    height: 25px;
+    background: #bb0e1f;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    --border-radius: 25px;
+    border-radius: 25px;
+    position: absolute;
+    top: 37%;
+    right: 21%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

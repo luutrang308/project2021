@@ -1,0 +1,135 @@
+@media screen and (min-width: 1200px){
+    body .container-fluid{
+        max-width: 1515px;
+    }
+
+}
+
+
+.titlelight p, .title p{
+    font-family: Segoe UI;
+}
+p{
+    font-size: 24px;
+}
+.titlelight{
+    margin-bottom: 80px;
+}
+.titlelight h2{
+    color: #be1a2b;
+}
+
+@media screen and (max-width: 1200px){
+    .doingulanhdao .title .title-box {
+        position: absolute;
+        top: 62px;
+        left: 0;
+        z-index: -1;
+    }
+    .maps .headquarters .content-box{
+        padding-top: 40px;
+         padding-left: 0px;
+        padding-bottom: 40px;
+    }
+    .maps hr {
+        margin-top: 20px !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .doingulanhdao .title p:after{
+        display: none;
+    }
+    .doingulanhdao .title p{
+        margin-left: 0px;
+    }
+}
+
+/* SECTION MAPS */
+.pagecolor .bg_f:before {
+    background: rgba(97, 60, 62, .8);
+}
+.maps{
+    margin-bottom: 50px;
+}
+.maps-mb{
+    margin-bottom: 100px;
+}
+.maps .headquarters{
+    background-color: #fff;
+}
+.headquarters h3{
+    color: #8C1826;
+    font-size: 18px;
+    font-family: 'UTM Avo';
+    font-weight: 700;
+}
+
+.headquarters .content-box{
+    padding-top: 83px;
+    padding-left: 62px;
+}
+.maps .headquarters .content-box p{
+    font-size: 16px;
+}
+.mapsgtct {
+    background-color: #202421;
+}
+.mapsgtct .headquarters{
+    display: inline-block;
+
+}
+.mapsgtct .headquarters p{
+    font-size: 14px;
+}
+.mapsgtct .headquarters .img{
+    width:26px;
+    height:35px;
+
+}
+.mapsgtct .headquarters h3{
+    font-size: 16px;
+}
+.map-row{
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.maps hr{
+    margin-top: 45px;
+}
+.item_footer form{
+    width:100%;
+}
+.w120:before {
+    width: 110%;
+}
+.page_contact .group_input{
+
+    padding-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

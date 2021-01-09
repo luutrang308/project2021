@@ -1,0 +1,234 @@
+
+@media screen and (min-width: 1200px){
+   /* body .container-fluid{
+        max-width: 1515px;
+    }*/
+  /*  .page-img-project .container-fluid{
+        width: 1515px;
+    }*/
+
+}
+
+@media screen and (max-width: 1200px){
+    .carousel-page .owl-item .img img{
+       max-width: 100%;
+    }
+}
+
+
+.titlelight p, .title p{
+    font-family: Segoe UI;
+}
+p{
+    font-size: 24px;
+}
+.titlelight{
+    margin-bottom: 80px;
+}
+.titlelight h2{
+    color: #be1a2b;
+}
+
+@media screen and (max-width: 1200px){
+    body h2{
+        font-size: 48px;
+    }
+    .doingulanhdao .title .title-box {
+        position: absolute;
+        top: 62px;
+        left: 0;
+        z-index: -1;
+    }
+}
+@media screen and (max-width: 992px) {
+    .doingulanhdao .title p:after{
+        display: none;
+    }
+    .doingulanhdao .title p{
+        margin-left: 0px;
+    }
+}
+
+
+.title .title-box {
+    position: absolute;
+    top: 74px;
+    left: 0;
+    z-index: -1;
+}
+.title .title-box .bt-box{
+    width: 100%;
+    height: 26px;
+    background: #613c3e;
+}
+
+.titlelight h2{
+    color: #be1a2b;
+}
+.titlelight .title-box .bt-box{
+    background: #efc7cb;
+}
+
+@media screen and (max-width: 1200px){
+    body h2{
+        font-size: 48px;
+    }
+    .title .title-box {
+        position: absolute;
+        top: 62px;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .title p:after{
+        display: none;
+    }
+    .gtda h2:before{
+        position: absolute;
+        left: 0;
+        width: 100% !important;
+        height: 26px;
+        background: #3C4E40;
+        opacity: 23%;
+        bottom: 0;
+        margin-left:15px;
+        margin-right:15px;
+        content: '';
+        z-index: -2;
+    }
+}
+
+/* 5 chi tiet du an */
+
+
+.nvhtt .group-text p{
+    color: #BB0E1F;
+
+}
+.nvhtt .group-text h4{
+    font-size: 36px;
+}
+.nvhtt h2:before{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 26px;
+    background: #3C4E40;
+    opacity: 23%;
+    bottom: 0;
+    margin-left:15px;
+    content: '';
+    z-index: -2;
+}
+.nvhtt .title p:after {
+    position: absolute;
+    left: 0;
+    width: 44px;
+    height: 1px;
+    background: #000000;
+    opacity: 100%;
+    top:16px;
+    margin-left: 15px;
+    content: '';
+    z-index: -2;
+}
+.gtda{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.gtda h2:before{
+    position: absolute;
+    left: 0;
+    width: 363px;
+    height: 26px;
+    background: #3C4E40;
+    opacity: 23%;
+    bottom: 0;
+    margin-left:15px;
+    margin-right:15px;
+    content: '';
+    z-index: -2;
+}
+.gtda .group-text p{
+    color:black;
+}
+.gtda .group-text h3{
+ /*   margin-top:80px;*/
+}
+.title p{
+    margin-left:50px;
+
+}
+.title p:after{
+    position: absolute;
+    left: 0;
+    width: 44px;
+    height: 1px;
+    background: #000000;
+    opacity: 100%;
+    bottom: 77px;
+    margin-left: 15px;
+    content: '';
+    z-index: -2;
+}
+.page-img-project .slider_project .owl-item{
+    width: 904px;
+    margin-right: 30px;
+
+}
+.slider_project .item .content_text h2{
+    padding-bottom: 15px;
+}
+.w200:before {
+    width: 110%;
+}
+@media screen and (max-width: 992px){
+    .gtda h2:before{
+        width:110% !important;
+    }
+}
+.carousel-page{
+    background-color: #202421;
+}
+.btn_click_next .prev1 img{
+    transform: rotateY(180deg);
+    margin-right: 20px;
+}
+.page-ctda .bg_f:before{
+    background: #3C4E40;
+    opacity: 0.4;
+}
+.page-ctda .title_text h2{
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

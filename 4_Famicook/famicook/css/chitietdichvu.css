@@ -1,0 +1,13 @@
+.fixedList{
+	position: fixed;
+	background: #fff;
+	transition: all .3s;
+	z-index: 2000;
+}
+.fixedList.hiddenTop{
+	top: -100% !important;
+}
+
+.list-choose ul li a{
+	text-decoration: none
+}

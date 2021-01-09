@@ -1,0 +1,105 @@
+.change-pass-3{
+    .create-acc{
+        text-align: center;
+        margin-top: 20px;
+        a{
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          color: #318124;
+          &:hover{
+            text-decoration: none;
+          }
+          
+        }
+      }
+    .user{
+        position: relative;
+        input{
+          width: 100%;
+            border: 1px solid #BABABA;
+            box-sizing: border-box;
+            border-radius: 85px;
+            padding-top: 17px;
+            padding-bottom: 17px;
+            padding-left: 70px;
+            margin-top:10px;
+            margin-bottom: 10px;
+            
+            &:focus{
+              outline: 0;
+              transition: 0.4s;
+              box-shadow: 3px 2px 7px rgba(0, 0, 0, 0.25);
+            }
+        }
+        &:before{
+            position: absolute;
+            content: "\f007";
+            font-family: fontawesome;
+            top: 22px;
+            left: 35px;
+            font-size: 21px;
+            color: #6B6B6B;
+        }
+      }
+    .password{
+        position: relative;
+        img{
+          position: absolute;
+            top: 33%;
+            right: 20px;
+        }
+        input{
+          width: 100%;
+            border: 1px solid #BABABA;
+            box-sizing: border-box;
+            border-radius: 85px;
+            padding-top: 17px;
+            padding-bottom: 17px;
+            padding-left: 70px;
+            margin-top:10px;
+            margin-bottom: 10px;
+            &:focus{
+              outline: 0;
+              transition: 0.4s;
+              box-shadow: 3px 2px 7px rgba(0, 0, 0, 0.25);
+            }
+
+        }
+        &:before{
+              position: absolute;
+              content: url(../../img/lock.png);             
+              top: 22px;
+              left: 35px;
+              font-size: 21px;
+              color: #6B6B6B;
+            }
+      }
+    .meet-pass{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right:30px;
+        font-style: italic;
+        input[type=checkbox]{
+          &:checked{
+                     
+              color: #C4C4C4;
+
+        }
+          
+                    
+    }
+    label{
+        color:#000;
+    }
+    span a{         
+        color: #318124;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}

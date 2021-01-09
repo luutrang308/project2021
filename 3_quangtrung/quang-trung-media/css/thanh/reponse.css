@@ -1,0 +1,58 @@
+.pd-0{
+	padding:0px;
+}
+@media (min-width: 1200px){
+	.container {
+    	width: 1200px;
+	}
+	
+}
+
+@media(max-width: 1200px){
+	.list_v2 .item  {
+		width: 33.33%;
+	}
+	.form_search select {
+		width: 100%;
+	}
+	.cate_pc a.dm i {
+		margin-right: 15px;
+	}
+	.form_search {
+		width: 35%;
+	}
+	.menu_main > ul > li a {
+		padding: 0px 10px;
+	}
+	.options ul li a{ 
+		padding-bottom: 10px;
+	}
+	
+}
+@media(max-width: 992px){
+	.list_product .item_product{
+		width: 33.33%;
+	}
+	.list_v2 .item  {
+		width: 50%;
+	}
+	.header_top .hotline {
+		display: none;
+	}
+	.p_ab_l {
+		left: 15px;
+	}
+	.form_search {
+		width: 62%;
+	}
+
+	
+}
+@media(max-width: 767px){
+	.list_product .item_product{
+		width: 50%;
+	}
+	.p_ab_r {
+		right: 15px;
+	}
+}

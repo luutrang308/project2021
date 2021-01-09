@@ -1,0 +1,359 @@
+@media screen and (min-width: 1200px){
+    body .container-fluid{
+        max-width: 1515px;
+    }
+
+}
+@media screen and (max-width: 1200px){
+  .chitiettintuc h2{
+      font-size: 36px;
+  }
+
+}
+@media screen and (max-width: 992px) {
+    .chitiettintuc .title p:after{
+        display: none;
+    }
+    .chitiettintuc .title p{
+        margin-left: 0px !important;
+    }
+}
+.chitiettintuc h2{
+    font-size: 48px;
+}
+.chitiettintuc h4{
+    font-size: 30px;
+}
+.titlelight p, .title p{
+    font-family:  Segoe UI;
+}
+strong{
+    font-size: 16px;
+    font-family:  Segoe UI;
+}
+p{
+    font-size: 16px;
+    font-family: Segoe UI;
+}
+.chitiettintuc .group-icon span:last-child:before{
+    content: '\f0c0';
+    font-family: fontawesome;
+}
+.chitiettintuc p{
+    font-size: 16px;
+}
+
+/* MAN SO 9:  */
+.chitiettintuc .container-fluid .col-md-4{
+    margin-top:30px;
+}
+.chitiettintuc .title p{
+    margin-left:50px;
+}
+
+.chitiettintuc .title p:after {
+    position: absolute;
+    left: 0;
+    width: 44px;
+    height: 1px;
+    background: #fff;
+    opacity: 100%;
+    top: 16px !important;
+    margin-left: 15px;
+    content: '';
+    z-index: -2;
+}
+.chitiettintuc .title .content-box{
+    background-color: #BB0E1F;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.chitiettintuc .title .content-box hr{
+    width:100%;
+}
+.chitiettintuc .content-box{
+    width: 130px;
+}
+.chitiettintuc .content-box h4{
+    padding-top: 10px;
+}
+
+.textcontent2{
+    padding: 25px;
+    background-color: #2b2f2c;
+
+}
+.textcontent2 .tagbox{
+    font-size: 26px;
+    text-transform: initial;
+    font-style: italic;
+}
+
+.textcontent2 .tagbox i{
+    color: #bb0e1f;
+    position: absolute;
+    left: 0;
+}
+.tagbox strong{
+    font-size: 36px;
+    color: #bb0e1f;
+}
+.textcontent p:after{
+   display: none;
+}
+.group-tag{
+    display: inline-block;
+}
+.tagicon{
+    display: inline-block;
+}
+.tagicon img{
+    width: 29px;
+    height: 20px;
+}
+.group-tag a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    margin-top:30px;
+    margin-bottom:10px;
+    float:left;
+    font-size: 13px;
+}
+.group-tag a:first-child{
+ margin-right:15px;
+}
+.group-tag a:hover{
+   color:white;
+    text-decoration: none;
+    background-color: #555856;
+}
+.group-tag-icon i{
+    margin-right: 100px;
+}
+.group-tag-icon .tagicon a{
+ margin-top:0;
+}
+.group-tag-icon a{
+    color:white;
+    margin-right:65px;
+    float:left;
+    font-size: 13px;
+}
+.group-tag-icon a:hover{
+    color:white;
+    text-decoration: none;
+
+}
+hr{
+    background-color: white;
+}
+
+.chitiettintuc .search-sb .box-triangle{
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: -3px;
+    left: 11px;
+    border-bottom: 8px solid #202421;
+    background-color: transparent;
+    border-left: 5px solid transparent;
+    transform: rotate(-38deg);
+    border-right: 5px solid transparent;
+}
+
+.chitiettintuc .search-sb input{
+    height:61px;
+    font-size: 16px;
+    padding-left:25px;
+}
+
+
+.chitiettintuc .search-sb input::placeholder{
+
+    color:#BB0E1F;
+
+}
+
+.chitiettintuc .search-sb button{
+    position: absolute;
+    right: 18px;
+    background-color: transparent;
+    border: none;
+    top: 5px;
+    font-size: 17px;
+    color: transparent;
+}
+.chitiettintuc .search-sb img{
+    position: absolute;
+    right: 18px;
+    background-color: transparent;
+    border: none;
+    top: 65%;
+    font-size: 17px;
+    color: transparent;
+    width: 24px;
+}
+
+.text-sb p{
+    font-size: 18px;
+    padding: 30px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 0;
+}
+.text-sb{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.sb-text p{
+    padding-left: 18px;
+
+}
+.sb-text span{
+    padding-left: 18px;
+
+}
+.text-sb p:hover{
+    border-left: 3px solid #fff;
+    background-color: #292d2a;
+}
+.text-sb p a{
+    color:#fff;
+    font-family:  Segoe UI;
+}
+.text-sb p a:hover{
+    color:grey;
+    text-decoration: none;
+}
+.news-sb{
+    margin-bottom: 60px;
+    position: relative;
+}
+.news-sb .sb-text{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    display: none;
+    /*background-color: rgba(56, 56, 56, 0.57);*/
+    background: transparent linear-gradient(0deg, #2D2D2D 0%, #2D2D2D52 100%) 0% 0% no-repeat padding-box;
+    position: absolute;
+    top: 0px;
+}
+.news-sb .sb-text p{
+    font-size: 18px;
+    position: absolute;
+    letter-spacing: 0px;
+    top: 32%;
+}
+.news-sb .sb-text span{
+    font-size: 12px;
+    position: absolute;
+    bottom: 18%;
+}
+.news-sb .sb-box:hover .sb-text{
+    display: block;
+}
+.sb-text{
+    padding-bottom: 50px;
+}
+.sb-box{
+    position: relative;
+}
+.sb-box img{
+    border-radius: 9px 9px 0px 0px;
+}
+.tag-sb p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-right: 12px;
+    float: left;
+}
+
+.tag-sb a{
+    color: #fff;
+    font-size: 17px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #2b2f2c;
+    border-radius: 10px;
+}
+.tag-sb a:hover{
+    background-color: #bb0e1f;
+    transition: 0.3s;
+}
+.cttt-page{
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+.chitiettintuc .texttitle1{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.chitiettintuc  .hrsb{
+    float:left;
+}
+.chitiettintuc .text-padding p{
+    background-color: #2b2f2c;
+    padding-top: 30px;
+    padding-left: 54px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-left:0px;
+}
+.text-padding p:after{
+    display: none;
+}
+.textpadding{
+    font-family: Roboto;
+    font-style:italic;
+    font-size: 23px;
+}
+.textpadding span{
+    font-size: 30px;
+    color: #A61B26;
+    font-style: italic;
+}
+.breadcrumb_th ul li a {
+    font-family: Segoe UI;
+}
+.group-icon{
+    margin-top: 25px;
+}
+.group-icon span{
+    font-size: 15px;
+
+}
+.group-icon span i{
+    font-style: inherit;
+}
+.group-icon span i:before{
+    content: '\f073';
+    font-family: FontAwesome;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

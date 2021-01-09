@@ -1,0 +1,19 @@
+/*@font-face {
+    font-family:font_strong;
+    src:url('../font/u') format('truetype'),
+    url('../fonts/Captureit.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Captureit.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}*/
+@import url('cssteam.css');
+@import url('footerlienhe.css');
+@import url('formlienhe.css');
+@import url('maps.css');
+@import url('lienhe.css');
+@import url('gioithieuchitiet.css');
+@import url('chitietlinhvuchoatdong.css');
+@import url('9chitiettintuc.css');
+@import url('5chitietduan.css');
+@import url('gioithieuchung1.css');
+@import url('fix_mobile_tr.css');

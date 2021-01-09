@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Chi tiết dự án</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="author" content="Matthew Howell" />
+    <meta name="description" content="fullPage continuous scrolling demo." />
+    <meta name="keywords"  content="fullpage,jquery,demo,scroll,loop,continuous" />
+    <meta name="Resource-type" content="Document" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/css-th/vensdor/plugin.css" />
+    <link rel="stylesheet" href="css/css-th/vensdor/slick.css" />
+    <link rel="stylesheet" href="css/css-th/styles.css" />
+   <!--  <link rel="stylesheet" href="css/css-tr/5chitietduan.css" />-->
+    <link rel="stylesheet" href="css/css-tr/style.css" />
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+</head>
+<body class="fs10">
+<!-- 	<div class="loader_div">
+		<div class="loader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div> -->
+
+<div class="menu_right ">
+    <div class="icon_menu ">
+        <span></span>
+    </div>
+    <div class="menu_pc ">
+        <div class="seach_f">
+            <form>
+                <input type="" name="" placeholder="Tìm kiếm">
+                <button type="submit" class="btn_sb"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+        </div>
+        <div class="menu_main_pc">
+            <ul>
+                <li><a href="">Trang chủ <img  class="icon" src="images/right-arrow.png"></a></li>
+                <li><a href="">Về DCCD <img  class="icon" src="images/right-arrow.png"></a></li>
+                <li><a href="">Lĩnh vực hoạt động <img  class="icon" src="images/right-arrow.png"></a></li>
+                <li><a href="">Dự án <img  class="icon" src="images/right-arrow.png"></a></li>
+                <li><a href="">Tin tức <img  class="icon" src="images/right-arrow.png"></a></li>
+                <li><a href="">Liên hệ <img  class="icon" src="images/right-arrow.png"></a></li>
+            </ul>
+        </div>
+        <div class="menu_main_sp">
+            <ul>
+                <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="language_f">
+            <ul>
+                <li><a href="">End</a></li>
+                <li>
+                    <a href="">EN<img src="images/en.png"></a>
+                </li>
+                <li class="active" >
+                    <a href=""><i class="fa fa-long-arrow-down down_icon" aria-hidden="true"></i>VI<img src="images/vn.png"></a>
+                </li>
+
+            </ul>
+        </div>
+        <script type="text/javascript">
+            $(".icon_menu").click(function(){
+                $(this).toggleClass('open');
+                $(".menu_right").toggleClass('active');
+            });
+        </script>
+    </div>
+</div>
+
+<div class="search_box ">
+
+    <form>
+        <i class="fa fa-times close" aria-hidden="true"></i>
+        <input type="" name="" placeholder="Nhập từ khóa...">
+        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+    </form>
+</div>
+
+<div class="page">
+    <div class="img_slider fullpage">
+        <a><img src="images/img/banner1.png"></a>
+    </div>
+
+    <div class="content_page_a full_a">
+        <div class="container container-fluid">
+            <div class="pd50">
+                <div class="logo">
+                    <img src="images/logo.png">
+                </div>
+                <div class="icon_support">
+                    <ul>
+                        <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <div class="search_icon">
+                        <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <script type="text/javascript">
+                            $(".search_icon a").click(function(){
+                                $(".search_box").addClass("open");
+                                return false;
+                            });
+                            $(".search_box .close").click(function(){
+                                $(".search_box").removeClass("open");
+                                return false;
+                            });
+                        </script>
+                    </div>
+                    <div class="btn_lh">
+                        <a href="">
+                            <span><i class="fa fa-phone" aria-hidden="true"></i> Liên hệ</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<!--nha van hoa trung tam-->
+
+<div class="page page_in_library dnld page-ctda">
+    <div class="breadcrumb_th bgw">
+        <div class="container container-fluid page_breadcrumb">
+            <ul>
+                <li><a href="">Trang chủ  </a></li>
+                <li><a href="">Dự án </a></li>
+                <li><a href="">Bảo tàng thái bình</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container container-fluid">
+        <div class="title_text">
+            <h2 class="bg_f w120 color_una"><span>NHÀ VĂN HÓA TRUNG TÂM TỈNH NINH BÌNH</span></h2>
+        </div>
+
+    </div>
+</div>
+
+<div class="nvhtt">
+    <div class="container container-fluid">
+        <div class="row">
+
+
+            <div class="col-md-10 col-12 group-text mt-5 float-md-left">
+                <div class="col-md-2 col-12 float-md-left">
+                    <p>Thời gian</p>
+                    <h4>2020</h4>
+                </div>
+                <div class="col-md-10 col-12 float-md-left ">
+                    <p>Địa điểm:</p>
+                    <h4>Đường Lê Đại Hành, P. Thanh Bình,TP. Ninh Bình, Tỉnh Ninh Bình.</h4>
+                </div>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-10 col-12 group-text mt-5 float-md-left">
+                <div class="col-md-2 col-12 float-md-left">
+                    <p>Quy mô:</p>
+                    <h4>6.453 m2</h4>
+                </div>
+                <div class="col-md-10 col-12 float-md-left ">
+                    <p>Chủ đầu tư:</p>
+                    <h4>Ban QLDA đầu tư xây dựng công trình dân dụng và công nghiệp tỉnh Ninh Bình.</h4>
+                </div>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-10 col-12 group-text mt-5 float-md-left">
+                <div class="col-md-2 col-12 float-md-left">
+                    <p>Số tầng cao:</p>
+                    <h4>4 tầng</h4>
+                </div>
+                <div class="col-md-10 col-12 float-md-left ">
+                    <p>Số lượng hạng mục</p>
+                    <h4>Tổng diện tích sàn: 8.335m2</h4>
+                </div>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--gioi thieu du an-->
+
+<div class="page page_in_library dnld page-ctda">
+    <div class="container container-fluid">
+        <div class="title_text">
+            <h2 class="bg_f w120 color_una"><span>Giới thiệu dự án</span></h2>
+        </div>
+
+    </div>
+</div>
+
+<div class="nvhtt gtda">
+    <div class="container container-fluid">
+        <div class="row">
+
+            <div class="col-md-10 col-12 group-text">
+                <h3>VỊ TRÍ ĐỊA LÝ</h3>
+                <p>- Dự án “ Nhà văn hóa trung tâm tỉnh Ninh Bình” được đầu tư xây dựng trên lô đất tại đường Lê Đại Hành, P.Thanh Bình, TP. Ninh Bình, tỉnh Ninh Bình, Vị trí của khu đất nằm ở trung tâm thành phố Ninh Bình, là điểm nhấn về kiến trúc, cảnh quan đô thị và văn hóa của Thành phố. Lô đất có diện tích 6.453 m2, phạm vi ranh giới khu đất xây dựng công trình như sau: </p>
+                <p>- Phía Tây giáp đường Lê Đại Hành. </p>
+                <p>- Phía Bắc giáp đường Hoàng Diệu. </p>
+                <p>  - Phía Đông giáp đường Lý Thái Tổ. </p>
+                <p>  - Phía Nam giáp ngõ 69 đường Lê Đại Hành và khu nhà dân.</p>
+                <h3> MỤC TIÊU ĐẦU TƯ</h3>
+                <p>- Xây dựng Nhà văn hóa trung tâm với cơ sở vật chất hiện đại đáp ứng nhu cầu giao lưu, biểu diễn văn hóa nghệ thuật quần chúng mang tính chuyên nghiệp; phục vụ tổ chức các sự kiện, hội nghị, hội thảo của tỉnh. </p>
+                <p>- Tạo không gian riêng cho các hoạt động cộng đồng, khuyến khích bảo tồn, phát huy các giả trị văn hóa nghệ thuật truyền thống của địa phương; góp phần nâng cao đời sống văn hóa, tinh thần cho nhân dân.</p>
+                <p>- Bố trí nơi làm việc cho một số đơn vị sự nghiệp công lập ngành văn hóa để thực hiện các nhiệm vụ chính trị được giao.</p>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="page page_project ">
+    <div class="container container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow fadeInUp">
+                <div class="text_project">
+
+                    <h2 class="bg_f w200"><span>Hình ảnh dự án</span></h2>
+                    <!--<a href="" class="btn_move float-md-right">
+                        <span>Xem tất cả <img src="images/right-arrow.png"></span>-->
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="owl-carousel owl-theme carousel-page">
+    <div class="item">
+        <div class="img">
+            <a href="" class="zom_img"><img src="images/img/da1.png"> </a>
+        </div>
+    </div>
+    <div class="item">
+        <div class="img">
+            <a href="" class="zom_img"><img src="images/img/da2.png"> </a>
+        </div>
+    </div>
+    <div class="item">
+        <div class="img">
+            <a href="" class="zom_img"><img src="images/img/da3.png"> </a>
+        </div>
+    </div>
+    <div class="item">
+        <div class="img">
+            <a href="" class="zom_img"><img src="images/img/da2.png"> </a>
+        </div>
+    </div>
+    <div class="item">
+        <div class="img">
+            <a href="" class="zom_img"><img src="images/img/da1.png"> </a>
+        </div>
+    </div>
+    <div class="item">
+        <div class="img">
+            <a href="" class="zom_img"><img src="images/img/da2.png"> </a>
+        </div>
+    </div>
+    <div class="item">
+        <div class="img">
+            <a href="" class="zom_img"><img src="images/img/da3.png"> </a>
+        </div>
+    </div>
+    <div class="item">
+        <div class="img">
+            <a href="" class="zom_img"><img src="images/img/da2.png"> </a>
+        </div>
+    </div>
+
+</div>
+
+<div class="page page_project">
+    <div class="container container-fluid">
+        <div class="row">
+
+            <div class="col-md-12 wow fadeInUp">
+                <div class="slider_project">
+
+                    <div class="group_fle">
+                        <div class="btn_click_slider click_slick btn_click_next">
+                            <a href="" class="prev1"><img src="images/right-arrow.png"></a>
+                            <a href="" class="next1"><img src="images/right-arrow.png"></a>
+                        </div>
+                        <div class="count_text">
+                            <p>
+                                <span class="count_c">01</span>
+                            <div class="line">
+                                <span class="line_c" ></span>
+                            </div>
+
+                            <span class="count_max">06</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="page page_project ">
+    <div class="container container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow fadeInUp">
+                <div class="text_project">
+
+                    <h2 class="bg_f w200"><span>Dự án liên quan</span></h2>
+                    <a href="" class="btn_move float-md-right">
+                        <span>Xem tất cả <img src="images/right-arrow.png"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow fadeInUp">
+                <div class="slider_project">
+                    <div class="slider_p owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="img">
+                                <a href="" class="zom_img"><img src="images/16.png"> </a>
+                            </div>
+                            <div class="content_text">
+                                <a href="">
+                                    <h3><img src="images/company.png"> <span>Công trình giáo dục - đào tạo</span></h3>
+                                    <h2>Bưu điện Quảng Ninh</h2>
+                                    <p><strong>Vị trí:</strong> Thành phố Quảng Ninh </p>
+                                    <p><strong>Qui mô:</strong> 3 tầng nổi, 01 tầng hầm, tổng diện tích sàn 50.635 m2</p>
+                                    <p><strong>Chủ đầu tư:</strong> Thành phố Quảng Ninh </p>
+                                    <p><strong>Đơn vị thiết kế:</strong> DCCD</p>
+                                </a>
+                            </div>
+                            <div class="count">
+                                01
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img">
+                                <a href="" class="zom_img"><img src="images/16.png"> </a>
+                            </div>
+                            <div class="content_text">
+                                <a href="">
+                                    <h3><img src="images/company.png"> <span>Công trình giáo dục - đào tạo</span></h3>
+                                    <h2>Bưu điện Quảng Ninh</h2>
+                                    <p><strong>Vị trí:</strong> Thành phố Quảng Ninh </p>
+                                    <p><strong>Qui mô:</strong> 3 tầng nổi, 01 tầng hầm, tổng diện tích sàn 50.635 m2</p>
+                                    <p><strong>Chủ đầu tư:</strong> Thành phố Quảng Ninh </p>
+                                    <p><strong>Đơn vị thiết kế:</strong> DCCD</p>
+                                    <p class="icon"><i class="fa fa-search-plus" aria-hidden="true"></i></p>
+                                </a>
+                            </div>
+                            <div class="count">
+                                01
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img">
+                                <a href="" class="zom_img"><img src="images/16.png"> </a>
+                            </div>
+                            <div class="content_text">
+                                <a href="">
+                                    <h3><img src="images/company.png"> <span>Công trình giáo dục - đào tạo</span></h3>
+                                    <h2>Bưu điện Quảng Ninh</h2>
+                                    <p><strong>Vị trí:</strong> Thành phố Quảng Ninh </p>
+                                    <p><strong>Qui mô:</strong> 3 tầng nổi, 01 tầng hầm, tổng diện tích sàn 50.635 m2</p>
+                                    <p><strong>Chủ đầu tư:</strong> Thành phố Quảng Ninh </p>
+                                    <p><strong>Đơn vị thiết kế:</strong> DCCD</p>
+                                    <p class="icon"><i class="fa fa-search-plus" aria-hidden="true"></i></p>
+                                </a>
+                            </div>
+                            <div class="count">
+                                01
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img">
+                                <a href="" class="zom_img"><img src="images/16.png"> </a>
+                            </div>
+                            <div class="content_text">
+                                <a href="">
+                                    <h3><img src="images/company.png"> <span>Công trình giáo dục - đào tạo</span></h3>
+                                    <h2>Bưu điện Quảng Ninh</h2>
+                                    <p><strong>Vị trí:</strong> Thành phố Quảng Ninh </p>
+                                    <p><strong>Qui mô:</strong> 3 tầng nổi, 01 tầng hầm, tổng diện tích sàn 50.635 m2</p>
+                                    <p><strong>Chủ đầu tư:</strong> Thành phố Quảng Ninh </p>
+                                    <p><strong>Đơn vị thiết kế:</strong> DCCD</p>
+                                    <p class="icon"><i class="fa fa-search-plus" aria-hidden="true"></i></p>
+                                </a>
+                            </div>
+                            <div class="count">
+                                01
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group_fle">
+                        <div class="btn_click_slider click_slick">
+                            <a href="" class="prev"><img src="images/right-arrow.png"></a>
+                            <a href="" class="next"><img src="images/right-arrow.png"></a>
+                        </div>
+                        <div class="count_text">
+                            <p>
+                                <span class="count_c">01</span>
+                            <div class="line">
+                                <span class="line_c" ></span>
+                            </div>
+
+                            <span class="count_max">06</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="page page_contact ">
+    <div class="container container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 wow fadeInUp">
+                <div class="title_text">
+                    <h3>Contact us.</h3>
+                    <h2 class="bg_f w120"><span>Liên hệ với chúng tôi.</span></h2>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 wow fadeInUp">
+                <form>
+                    <div class="group_input">
+                        <input type="text" name="" placeholder="Họ và tên">
+                    </div>
+                    <div class="group_input">
+                        <input type="text" name="" placeholder="Công ty">
+                    </div>
+                    <div class="group_input">
+                        <input type="text" name="" placeholder="Số điện thoại">
+                    </div>
+                    <div class="group_input ">
+                        <input type="text" name="" placeholder="Email">
+                    </div>
+                    <div class="group_input full_group">
+                        <textarea placeholder="Nội dung"></textarea>
+                    </div>
+                    <div class="group_input dsf full_group">
+                        <div class="checkbox_t">
+                            <input type="checkbox" class="check_item">
+                            <label>Tôi không phải người máy</label>
+                        </div>
+                        <div class="checkbox_t" style="text-align: right;">
+                            <button type="" class=" submit_f">
+                                <span>Xem tất cả <img src="images/right-arrow.png"></span>
+                            </button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page page_map ">
+    <div class="container container-fluid">
+        <div class="logo wow fadeInUp">
+            <a href="">
+                <img src="images/logo.png">
+            </a>
+        </div>
+        <div class="slider_map wow fadeInUp">
+            <div class="item_map">
+                <div class="content_text">
+                    <div class="title_header">
+                        <h3>
+                            <img src="images/placeholder.png">
+                            <span>Trụ sở chính</span>
+                        </h3>
+                        <div class="text">
+                            <div class="address">
+                                <p><strong>Địa chỉ:</strong></p>
+                                <p>21 Lê Văn Lương, Nhân Chính , Thanh Xuân, Hà Nội</p>
+                            </div>
+                            <div class="address">
+                                <div class="item">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <p><strong>Điện thoại</strong></p>
+                                                <p>04.62514111</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <p><strong>Email</strong></p>
+                                                <p>dccd@dccd.vn </p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <p><strong>Fax</strong></p>
+                                                <p>04.62514111</p>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+
+                        <div class="map_if">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6377762805837!2d105.8056153153318!3d21.0071521938905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac9f46b7bde3%3A0xc93139fd9284fa05!2zMjEgTMOqIFbEg24gTMawxqFuZywgTmjDom4gQ2jDrW5oLCBUaGFuaCBYdcOibiwgSMOgIE7hu5lpLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1593415846375!5m2!1sen!2s" width="100%" height="309" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item_map">
+                <div class="content_text">
+                    <div class="title_header">
+                        <h3>
+                            <img src="images/placeholder.png">
+                            <span>Trụ sở chính</span>
+                        </h3>
+                        <div class="text">
+                            <div class="address">
+                                <p><strong>Địa chỉ:</strong></p>
+                                <p>51 Hoàng Kế Viêm, Mỹ An, Ngũ Hành Sơn, Đà Nẵng</p>
+                            </div>
+                            <div class="address">
+                                <div class="item">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <p><strong>Điện thoại</strong></p>
+                                                <p>0511. 3955 868</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <p><strong>Email</strong></p>
+                                                <p>chinhanhmien</br>trung@dccd.vn</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <p><strong>Fax</strong></p>
+                                                <p>0511. 3955 868</p>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+
+                        <div class="map_if">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.3217751499624!2d108.2406452152886!3d16.048783644247347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314217637ac7b941%3A0x29cdd8fff9dc4941!2zNTEgSG_DoG5nIEvhur8gVmnDqm0sIELhuq9jIE3hu7kgUGjDuiwgTmfFqSBIw6BuaCBTxqFuLCDEkMOgIE7hurVuZyA1NTAwMDAsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1593415746142!5m2!1sen!2s" width="100%" height="309" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item_map">
+                <div class="content_text">
+                    <div class="title_header">
+                        <h3>
+                            <img src="images/placeholder.png">
+                            <span>Trụ sở chính</span>
+                        </h3>
+                        <div class="text">
+                            <div class="address">
+                                <p><strong>Địa chỉ:</strong></p>
+                                <p>273 Nguyễn Trọng Tuyển, Phú Nhuận, Hồ Chí Minh</p>
+                            </div>
+                            <div class="address">
+                                <div class="item">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <p><strong>Điện thoại</strong></p>
+                                                <p>08.3842 2123 - 069</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <p><strong>Email</strong></p>
+                                                <p>chinhanhmien</br>nam@dccd.vn</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <p><strong>Fax</strong></p>
+                                                <p>08.3842 2123 - 069</p>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+
+                        <div class="map_if">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.17373497741!2d106.66814891526029!3d10.798002161746611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175292ecc728a5f%3A0xa092e326849249c5!2zMjczIE5ndXnhu4VuIFRy4buNbmcgVHV54buDbiwgUGjGsOG7nW5nIDEwLCBQaMO6IE5odeG6rW4sIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1593413293426!5m2!1sen!2s" width="100%" height="309" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container container-fluid container-fix-font">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 order0">
+                <div class="item_footer">
+                    <h2>Follow</h2>
+                    <ul>
+                        <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 order2">
+                <div class="item_footer">
+                    <p class="last_f">DCCD all rights 2020. Powered by SaoKim</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 order1">
+                <div class="item_footer">
+                    <h3>Đăng kí để nhận thông tin mới</h3>
+                    <p>E-newsletter focused on the air transport industry</p>
+                    <form>
+                        <input type="" name="" placeholder="Email">
+                        <button type="submit"><img src="images/right-arrow.png"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="js/slick.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script type="text/javascript">
+
+    $('.slider_main_pc').slick({
+        dots: true,
+        infinite: false,
+        arrows:true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        prevArrow:"<button class='prev slick-prev'><img class='a-left control-c ' src='images/right-arrow.png'></button>",
+        nextArrow:"<button class='next slick-next'><img class='a-right control-c ' src='images/right-arrow.png'></button>"
+    });
+    $('.slider_map').slick({
+        dots: true,
+        infinite: false,
+        arrows:true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        prevArrow:"<button class='prev slick-prev'><img class='a-left control-c ' src='images/right-arrow.png'></button>",
+        nextArrow:"<button class='next slick-next'><img class='a-right control-c ' src='images/right-arrow1.png'></button>",
+        responsive: [
+
+            {
+                breakpoint: 600,
+                settings: {
+                    arrows:false,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows:false,
+                }
+            }
+        ]
+    });
+    var slider_p=$('.slider_p');
+    slider_p.owlCarousel({
+        loop:true,
+        margin:30,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    });
+    var slider_partner=$('.slider_partner');
+    slider_partner.owlCarousel({
+        loop:true,
+        margin:70,
+        nav:true,
+        responsive:{
+            0:{
+                items:2,
+                margin:20,
+            },
+            600:{
+                items:3,
+                margin:20,
+            },
+            1000:{
+                items:4
+            },
+            1366:{
+                items:6
+            }
+        }
+    });
+    var leng_item=$('.slider_p .item').length;
+    $('.line_c').css("width",(1/leng_item)*100+'%');
+    $('.btn_click_slider .prev').click(function() {
+        slider_p.trigger('prev.owl.carousel');
+        return false;
+    });
+    slider_p.on('changed.owl.carousel', function(event) {
+        $('.line_c').css("width",(event.item.index/leng_item)*100+'%');
+    });
+    $('.btn_click_slider .next').click(function() {
+        slider_p.trigger('next.owl.carousel');
+        return false;
+    })
+
+</script>
+
+<script>
+
+    var slider_p1=$('.slider_p1');
+    slider_p1.owlCarousel({
+        loop:true,
+        margin:30,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    });
+    var slider_partner=$('.slider_partner');
+    slider_partner.owlCarousel({
+        loop:true,
+        margin:70,
+        nav:true,
+        responsive:{
+            0:{
+                items:2,
+                margin:20,
+            },
+            600:{
+                items:3,
+                margin:20,
+            },
+            1000:{
+                items:4
+            },
+            1366:{
+                items:6
+            }
+        }
+    });
+    var leng_item=$('.slider_p1 .item').length;
+    $('.line_c').css("width",(1/leng_item)*100+'%');
+    $('.btn_click_slider .prev').click(function() {
+        slider_p1.trigger('prev.owl.carousel');
+        return false;
+    });
+    slider_p1.on('changed.owl.carousel', function(event) {
+        $('.line_c').css("width",(event.item.index/leng_item)*100+'%');
+    });
+    $('.btn_click_slider .next').click(function() {
+        slider_p1.trigger('next.owl.carousel');
+        return false;
+    })
+</script>
+
+<script>
+
+
+    var slider_p2=$('.carousel-page');
+    slider_p2.owlCarousel({
+        margin:25,
+        loop:true,
+        autoWidth:true,
+        items:4,
+        responsive:{
+            0:{
+                items:2
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:2
+            }
+        }
+    });
+
+
+
+    var leng_item=$('.carousel-page .item').length;
+    $('.line_c').css("width",(1/leng_item)*100+'%');
+    $('.btn_click_next .prev1').click(function() {
+        slider_p2.trigger('prev.owl.carousel');
+        return false;
+    });
+    slider_p2.on('changed.owl.carousel', function(event) {
+        $('.line_c').css("width",(event.item.index/leng_item)*100+'%');
+    });
+    $('.btn_click_next .next1').click(function() {
+        slider_p2.trigger('next.owl.carousel');
+        return false;
+    })
+</script>
+
+
+<script>
+    new WOW().init();
+    $(document).ready(function(){
+        setTimeout(function(){$(".loader_div").remove();  }, 3000);
+    });
+</script>
+</body>
+</html>

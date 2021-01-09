@@ -1,0 +1,147 @@
+@media screen and (max-width: 1536px ) {
+    .page-textcolor .item_field .count_field h2 {
+        padding-top: 18px;
+    }
+    .circle {
+        right: 15%;
+    }
+}
+
+@media screen and (max-width: 767px ){
+    /* LIEN HE */
+    .page-contact-color {
+        padding-bottom: 8%;
+    }
+    /* GIOI THIEU CHI TIET */
+    .page_in_library {
+        margin-top: 10%;
+    }
+    .title_text {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .team-item:first-child {
+        margin-top: 4%;
+    }
+    .team-item .content-box {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .team-item {
+        margin-top: 30px;
+    }
+    .team {
+        margin-bottom: 50px;
+    }
+    .page_map {
+        padding: 6% 0px;
+    }
+    /* CHI TIET TIN TUC */
+    .chitiettintuc h2 {
+        font-size: 36PX;
+        margin-top:25px;
+    }
+    .page-textcolor{
+        background-image: none;
+    }
+
+
+
+    /* GIOI THIEU CHUNG 1 */
+    .page-textcolor .item_field .count_field{
+        padding-bottom: 30px;
+    }
+    .page-textcolor .item_field .count_field .icon-color img{
+        right: 0;
+        bottom: -6%;
+    }
+    .page-gtc{
+        padding-bottom: 30px;
+    }
+    .page-gtc .text-box{
+        margin-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .page-gtc .text-box h4{
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+    .page-textcolor .titlecolor .button-color .title_text p{
+        font-size: 18px;
+    }
+
+    .page-slider-team {
+       margin-bottom: 0;
+    }
+    .page-slider-team .group_fle {
+        top: 76%;
+    }
+
+
+    /* CHI TIETY TIN TUC    */
+    .group-tag-icon a{
+        margin-right:30px;
+    }
+    .news-sb .sb-text p {
+        font-size: 14px;
+    }
+    .news-sb .sb-text span {
+        font-size: 12px;
+    }
+    .chitiettintuc .col-md-3{
+        margin-top:30px;
+    }
+    .gtda .group-text p{
+        font-size: 16px;
+    }
+    .nvhtt .group-text h4{
+        font-size: 28px;
+    }
+    .nvhtt .group-text p{
+        font-size: 18px;
+    }
+    .gtda .group-text h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    /* CHI TIET LINH VUC HOAT DONG  */
+    .g-content-box{
+        text-align: center;
+    }
+    /* CHI TIET DU AN */
+    .page .img_slider {
+        height: auto;
+    }
+
+    .page .img_slider img{
+        height: auto;
+        max-width: 100%;
+    }
+    .gtda {
+        margin-bottom: 50px;
+    }
+    .text_project h2{
+        font-size: 48px;
+    }
+    .circle {
+        right: 38%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
